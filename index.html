@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AJ.awesome</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <h2 id="logo">AJ</h2>
+            <h3 class="nav"><a href="#projects">Projects</a></h3>
+            <h3 class="nav"><a href="#experience">Experience</a></h3>
+            <h3 class="nav"><a href="#skills">Skills</a></h3>
+            <button id="contactme"><a href="#connect">Connect</a></button>
+            <!-- <h3 id="contactme">Contact me</h3> -->
+        </div>
+        <div class="section about_section">
+            <h1>Who I Am</h1>
+            <p>Welcome visitors! I’m <span>Atharva Joshi</span> — part coder, part data whisperer, and a full-time explorer of the AI/ML world. I graduated in Computer Science in 2025, and I love creating machine learning models that solve interesting problems. Always up for new opportunities to grow, collaborate, and innovate</p>
+        </div>
+        <div class="section project_section" id="projects">
+            <h1>What I've Built</h1>
+            <div class="project_wrapper">
+            <div class="project_box">
+                <img src="icons\black_white_books.jpeg" alt="project_image">
+                <h3 class="project_name">Book Recommendation System</h3>
+                <p>Built a fast, AI-driven book recommendation system using FAISS and Hugging Face embeddings with zero-shot classification for smart multi-label categorization.</p>
+                <div class="mini_box">
+                    <button onclick="window.open('https://www.example.com', '_blank')" class="view_project">View</button>
+                    <button onclick="window.open('https:/github.com/AthravaJoshi725/BookRecommender_HuggingFace', '_blank')" class="github_project">Github</button>
+                </div>
+            </div>
+
+            <div class="project_box">
+                <img src="icons\community.jpeg" alt="project_image">
+                <h3 class="project_name">Community Feedback Analyzer</h3>
+                <p>Developed a real-time sentiment analysis platform using APIs and Logistic Regression to process and classify 10K+ comments with automated filtering via Streamlit.</p>
+                <div class="mini_box">
+                    <button onclick="window.open('https://www.example.com', '_blank')" class="view_project">View</button>
+                    <button onclick="window.open('https:/github.com/AthravaJoshi725/CommunityFeedbackAnalyser', '_blank')" class="github_project">Github</button>
+                </div>
+            </div>
+
+            <div class="project_box">
+                <img src="icons\mental_health.png" alt="project_image">
+                <h3 class="project_name">MindMate</h3>
+                <p>MindMate is a web app that promotes mental health awareness and early detection by offering personalized assessments, guidance, and access to counseling in a secure, supportive environment. It empowers users to manage stress, anxiety, and depression while fostering understanding and prevention.</p>
+                <div class="mini_box">
+                    <button onclick="window.open('https://www.example.com', '_blank')" class="github_project">View</button>
+                    <button onclick="window.open('https:/github.com/AthravaJoshi725/College_Project', '_blank')" class="view_project">Github</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        <div class="section exp_section" id="experience">
+            <h1>Where I've Worked</h1>
+            <div class="exp_box">
+
+                <div class="exp_wrap">
+                <h3>Intern | ThoughtData</h3>
+                <span class="location">Remote</span>
+                </div>
+                <div class="exp_wrap_lower">
+                <p>
+                    <ul>
+                       <li>BI work on automating cloud monitoring, data syncing with ServiceNow, and creating Python scripts for backups and system maintenance.</li>
+                    </ul>
+                </p>
+                </div>
+            </div>
+
+            <div class="exp_box">
+                <div class="exp_wrap">
+                <h3>Machine Learning Intern | Jarvis Invest</h3>
+                <span class="location">Mumbai</span>
+                </div>
+                <div class="exp_wrap_lower">
+                <p>
+                    <ul>
+                      <li>I build internal AI-powered tools to fetch, process, and classify documents and live news for faster insights.</li>   
+                    </ul>
+                </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="section skills_section" id="skills">
+            <h1>My Toolbox</h1>
+            <div class="skills_box">
+                <h5 class="eachSkill">Python</h5>
+                <h5 class="eachSkill">SQL</h5>
+                <h5 class="eachSkill">Scikit-Learn</h5>
+                <h5 class="eachSkill">PyTorch</h5>
+                <h5 class="eachSkill">LangChain</h5>
+                <h5 class="eachSkill">Vector Database</h5>
+                <h5 class="eachSkill">FastAPI</h5>
+                <h5 class="eachSkill">Streamlit</h5>
+                <h5 class="eachSkill">Git</h5>
+                <h5 class="eachSkill">Html & Css</h5>
+                <h5 class="eachSkill">Javascript</h5>
+            </div>
+        </div>
+        <div class="section connect" id="connect">
+            <h3 id="cc">Connect:</h3>
+            <div title="Know more about me professionally" id="linkedin_socials" class="socials">
+                <img src="icons\linkedin (1).png" alt="w">
+                <p>Linkedin</p>
+            </div>
+            <div title="Know my thoughts" id="x_socials" class="socials">
+                <img src="icons\twitter.png" alt="w">
+                <p>Twitter</p>
+            </div>
+            <div title="View my work" id="github_socials" class="socials">
+                <img src="icons\github.png" alt="w">
+                <p>Github</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="scroll-to-top" title="Scroll to top">
+        ↑
+    </button>
+    
+<script src="scripts.js"></script>
+</body>
+</html>
