@@ -299,3 +299,74 @@ img{
     visibility: visible;
 }
 
+@media (max-width: 768px){
+    .wrapper{
+        width: 90%;
+    }
+
+    .navbar{
+        flex-wrap: nowrap;
+        gap: 5px;
+        padding: 8px;
+        justify-content: space-between;
+    }
+
+    .navbar h2#logo{
+        margin: 0;
+        font-size: 1.2em;
+    }
+
+    .navbar .nav{
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .navbar .nav a{
+        padding: 3px 6px;
+        font-size: 0.85em;
+    }
+
+    .navbar #contactme{
+        margin: 0;
+        padding: 4px 8px;
+        font-size: 0.8em;
+    }
+
+    .project_section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .project_box{
+        height: auto;
+    }
+    .project_box img{
+        height: 200px;
+    }
+
+    .exp_wrap{
+        padding: 2px;
+        font-size: 0.7rem;
+        word-spacing: 0.1px;
+    }
+    .exp_wrap_lower{
+        font-size: 0.93rem;
+        padding: 0px 10px;
+    }
+
+    #connect{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 1px;
+    }   
+    .socials{
+        margin: 1px;
+        padding: 2px;
+    }
+}

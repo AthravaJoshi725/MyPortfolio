@@ -3,7 +3,7 @@
 A clean, responsive personal portfolio website showcasing projects, experience, and skills in AI/ML and data science.
 
 ## 🚀 Live Demo
-[View Portfolio](https:/my-portfolio-nine-sandy-49.vercel.app/) 
+[View Portfolio](https://aj-sigma.vercel.app/) 
 
 ## 📋 Features
 - **Responsive Design**: Clean, modern layout with smooth scrolling
